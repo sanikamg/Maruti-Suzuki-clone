@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Rubik:wght@300;400;500;600;700&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    border-bottom: solid 1px #fafafa;
+    display: flex;
+    object-fit: contain;
+    overflow: hidden;
+}
+.headerimage{
+    width: 20%;
+}
+.headerlist{
+    width: 50%;
+}
+.headercontact{
+    width:30%
+}
+.image1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.headerli{
+    display: inline;
+    list-style: nine;
+    padding: 10px;
+    font-size: 12px;
+}
+.list1{
+    margin-top: 35px;
+}
+.contactli{
+    list-style: none;
+    display: inline;
+    font-size: 15px;
+    float: left;
+}
+.innercontact{
+    width: 200px;
+    height: 50px;
+    border: .5px solid rgb(208, 206, 206);
+    
+}
+.phn-icon{
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+   
+}
+.email-icon{
+    width: 15px;
+    height: 15px;
+}
+.conicon{
+   padding:10px;
+   margin-top: 8px;
+    height: 20px;
+    width: 20px;
+}
+.secondsection{
+    width:100%;
+    height:580px;
+    
+}
+.carimage{
+    width:100%;
+}
+.thirdsection{
+    display: flex;
+    width:100%;
+    height:303px;
+    margin-top:86px ;
+    overflow: hidden;
+
+}
+.secimage1{
+    width: 40%;
+    background-image: url("1.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    right: 52%;
+    transform: skewX(-4deg);
+    margin-left: -25px;
+    
+
+}
+.secimage2{
+    width: 40%;
+    background-image: url("WagonR_New.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transform: skewX(-4deg);
+    
+
+}
+.secimage3{
+    width: 40%;
+    background-image: url("123.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: -15px;
+    }
+.sectext1{
+    color: white;
+    font-weight: bold;
+    margin-top: 230px;
+    margin-left: 55px;
+    width: 65%;
+    height: 200px;
+    text-align: justify;
+    margin-top: 120px;
+
+}
+.p1{
+    font-size: 30px;
+    
+}
+.p2{
+    font-size: 15px;
+    line-height: normal;
+    width: 400px;
+    height:50px;
+    
+    
+}
+.button button{
+    width: 100px;
+    height: 31px;
+    background-color: rgb(255, 21, 21);
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 0cm;
+    
+   
+    
+}
+
+.sub{
+    transform: skewX(4deg)!important;
+}
+.skew1{
+    transform: skewX(4deg)!important;
+}
+
+.secbox{
+    margin-top: -75px;
+    display: flex;
+    margin-left: 10px;
+    padding-left: 16px;
+    
+}
+
+.secbox p{
+    font-size: 12px;
+    color: white;
+   
+    
+}
+.arena{
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    width: fit-content;
+    height: 37px;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+.nexa{
+    padding: 0px 10px 0px 10px;
+    width: fit-content;
+    text-align: center;
+    height: 37px;
+    border: 2px solid white;
+    margin-left: 10px;
+
+}
+.truevalue{
+    padding: 0px 10px 0px 10px;
+    width: fit-content;
+    height: 37px;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+.commercial{
+    padding: 0px 10px 0px 10px;
+    width: fit-content;
+    height: 37px;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+.fourthsection{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    overflow: hidden;
+    
+}
+.fourthimage1{
+   width:25%;
+   background-image: url("img1.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:end;
+    flex-direction: column;
+   
+   
+}
+.fourthimage2{
+    width:25%;
+    background-image: url("img2.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:end;
+    flex-direction: column;
+
+}
+.fourthimage3{
+    width:25%;
+    background-image: url("img3.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:end;
+    flex-direction: column;
+}
+.fourthimage4{
+    width:25%;
+    background-image: url("img4.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:end;
+    flex-direction: column;
+}
+
+.knowmore{
+    margin: 0px 0px 20px 20px;
+}
+
+.knowmore button{
+    width:100px;
+    height: 35px;
+    border: hidden;
+    background-color: red;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    transform: skewX(4deg);
+
+    
+}
+.sixthsection{
+    width:100%;
+    margin-top: 100px;
+    
+    
+}
+.dash{
+    border-top: 2px solid #d61f26;
+    width: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.smalltext{
+    height:30px;
+    font-size: 20px;
+    font-weight:bold;
+    
+}
+.largetext{
+    height: 30px;
+    font-size: 80px;
+    font-weight: bold;
+    
+}
+.sixthtext{
+    width:20%;
+    line-height: normal;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+}
+.seventhsection{
+   width:100%;
+    height:610px;
+    transform: skewX(-4deg);
+    margin-top: 100px;
+    
+    
+
+}
+.car1{
+    width:30%;
+    background-image: url("car1.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: -23px;
+    justify-content:end ;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.car2{
+    
+   width:30%;
+    background-image: url("car2.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content:end ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.car3{
+    width:30%;
+    background-image: url("car3.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content:end ;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.car4{
+    width:30%;
+    background-image: url("car4.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content:end ;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.car5{
+    width:30%;
+    background-image: url("car5.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: -23px;
+    justify-content:end ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.car6{
+    width:30%;
+    background-image: url("car6.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content:end ;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.car7{
+    width:30%;
+    background-image: url("car7.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content:end ;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.car8{
+    width:30%;
+    background-image: url("car8.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content:end ;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.firsthalf{
+    width: 100%;
+    height: 50%;
+   display: flex;
+   
+
+}
+.secondhalf{
+    width:100%;
+    height: 50%;
+    display: flex;
+   
+    
+}
+.cartext{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+.eightsection{
+    background-color: rgb(149, 77, 112);
+    width: 100%;
+    height: 50px;
+}
+.eighttext{
+    color: #d61f26;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.dash2{
+    border-top: 5px solid #d61f26;
+    width: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ninethsection{
+    width:100%;
+    height: 200px;
+    margin-top: 50px;
+}
+.tenthsection{
+    width:100%;
+    height: 600px;
+    background:url("https://marutisuzukiarenaprodcdn.azureedge.net/-/media/images/maruti/marutisuzuki/modules/basic-module/home/our-value-bg.jpg")
+}
+.tenthlist{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto ;
+    padding: 0;
+}
+.tenthli{
+    list-style: none;
+    display: inline;
+}
+.tenthinnerdiv{
+    display: inline;
+    
+}
+.buttonlist{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto ;
+    padding: 0;
+    margin-top: 50px;
+}
+.buttoninner{
+    display: inline;
+}
+
+.buttoninner button{
+    display: inline;
+    border: hidden;
+    background-color: #d61f26;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    width: 135px;
+    height: 45px;
+    text-align: center;
+}
+
+.buttonli{
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+.eleventhsection{
+    width:100%;
+   height: 500px;
+   margin-top: 100px;
+
+}
+.blackbox{
+   display: inline;
+}
+.eleventhlist{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto ;
+    padding: 0;
+}
+.eleventhli{
+    list-style: none;
+    display: inline;
+    padding-right: 15px;
+    float:left
+    
+}
+.elevenbox1{
+    width:50px;
+    height:50px;
+    border-left: .1px solid rgb(122, 122, 122);
+    border-right: .1px solid rgb(117, 116, 116);
+    font-size: 88px;
+    color: rgb(30 24 24 / 90%);
+    display: inline;
+    margin-top: 10px;
+    object-fit: contain;
+    padding:0px;
+   
+}
+.elevenbox2{
+    font-size: 88px;
+    color: rgb(30 24 24 / 90%);
+    display: inline;
+    margin-top: 10px;
+    object-fit: contain;
+    padding:0px;
+}
+.buttoninner2 button{
+    display: inline;
+    border: hidden;
+    background-color: #d61f26;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+}
+.buttoninner2{
+    display: inline;
+}
+.buttonlist2{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto ;
+    padding: 0;
+    margin-top: 150px;
+}
+.imgblack{
+    width: 373px;
+    height: 87px;
+}
+.footersection{
+    width: 100%;
+    height:500px;
+    background-color: rgb(30, 25, 25);
+    display: flex;
+}
+.section1{
+width:45%;
+
+    margin-left: 50px;
+    padding: 50px;
+}
+.section2{
+    padding: 50px 50px 50px 50px;
+   width: 60%;
+}
+.section3{
+    padding: 50px;
+    width:20%;
+    
+}
+.reachus{
+    color: white;
+    font-size: 12px ;
+    line-height: 35px;
+
+}
+.buttonlistf{
+    display: table;
+    text-align: center;
+    margin-left: -47px;
+    
+    margin-top: 50px;
+}
+.buttoninnerf{
+    display: inline;
+}
+
+.buttoninnerf button{
+    display: inline;
+    border: hidden;
+    background-color: #f6f0f0;
+    color: rgb(13, 13, 13);
+    font-family: 'Lato', sans-serif;
+    width: 180px;
+    height: 32px;
+    text-align: center;
+}
+
+.buttonlif{
+    list-style: none;
+    display: inline;
+    
+    
+}
+
+.footertable{
+    color: white;
+    float: left;
+    text-align: justify;
+   
+}
+.tabledata{
+padding: 0px 25px 0px 25px;
+}
+.tablehead{
+    padding: 10px 25px 10px 25px;
+}
+.download{
+    list-style: none;
+}
+.phn{
+    color: white;
+}
+.email{
+    color: white;
+}
+.icon{
+    display: flex;
+}
+
+.iconimg{
+    padding: 0px 10px 0px 10px;
+}
+.down{
+    color: white;
+}
+.app{
+    display: flex;
+    
+}
+.appimage{
+    padding: 0px 5px 0px 10px;
+}
+.end{
+    width: 100%;
+    height:100px;
+    background-color: rgb(30, 25, 25);
+    margin-top: -17px;
+}
+.endpara{
+    margin-left:10px ;
+    font-size: 12px;
+    color: white;
+}
+.lastsection{
+    width:100%;
+    height:50px;
+    background-color: black;
+    margin-top: -25px;
+    display: flex;
+}
+.lastsection1{
+    width:50%;
+    padding: 10px 10px 0px 0px;
+    margin-left: 50px;
+ 
+}
+.left{
+    color: white;
+    font-size: 10px;
+}
+.lastsection2{
+    width:50%;
+    margin-left: 30px;
+
+}
+.endli{
+    display: inline;
+    list-style: nine;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
